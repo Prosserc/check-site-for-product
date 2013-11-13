@@ -3,15 +3,15 @@
     "email_params":
         {
             "sender": "autosystemtest@gmail.com",
-            "enc_pwd": "VHJvcGljYWwyMQ==",
+            "enc_pwd": "",
             "recipient": "prosser_chris@yahoo.co.uk",
             "comment": "enc_pwd should be base64 encoded" 
         },
     "sms_params":
         {
             "sms_account": "prosser_chris@yahoo.co.uk",
-            "sms_sender": "ProsserSys",
-            "mobile_nos": "447504750054",
+            "sms_sender": "",
+            "mobile_nos": "",
             "comment": "mobile nos should be comma separated without spaces",
             "comment2": "use country code e.g. 44 (uk) rather than 0 at start",
             "comment3": "using http://txtlocal.co.uk"
