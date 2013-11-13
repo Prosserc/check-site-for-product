@@ -1,0 +1,29 @@
+{
+    "mins_delay": 1,
+    "email_params":
+        {
+            "sender": "autosystemtest@gmail.com",
+            "enc_pwd": "VHJvcGljYWwyMQ==",
+            "recipient": "prosser_chris@yahoo.co.uk",
+            "comment": "enc_pwd should be base64 encoded" 
+        },
+    "sms_params":
+        {
+            "sms_account": "prosser_chris@yahoo.co.uk",
+            "sms_sender": "ProsserSys",
+            "mobile_nos": "447504750054",
+            "comment": "mobile nos should be comma separated without spaces",
+            "comment2": "use country code e.g. 44 (uk) rather than 0 at start",
+            "comment3": "using http://txtlocal.co.uk"
+        },
+    "products": 
+        {
+            "Nexus 5": 
+            { 
+                "url": "https://play.google.com/store/devices",
+                "check_string": "nexus.5", 
+                "comment": "check_string does a regular expression match",
+                "comment2": "multiple products can be added"
+            }
+        }
+}
