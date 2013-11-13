@@ -1,17 +1,17 @@
 {
-    "mins_delay": 1,
+    "mins_delay": 5,
     "email_params":
         {
-            "sender": "autosystemtest@gmail.com",
-            "enc_pwd": "",
-            "recipient": "prosser_chris@yahoo.co.uk",
+            "sender": "<sender email address here>",
+            "enc_pwd": "<base 64 encoded password here>",
+            "recipient": "<recipient email address here>",
             "comment": "enc_pwd should be base64 encoded" 
         },
     "sms_params":
         {
-            "sms_account": "prosser_chris@yahoo.co.uk",
-            "sms_sender": "",
-            "mobile_nos": "",
+            "sms_account": "<sms account name here>",
+            "sms_sender": "<sender description>",
+            "mobile_nos": "<recipient mobile no(s)>",
             "comment": "mobile nos should be comma separated without spaces",
             "comment2": "use country code e.g. 44 (uk) rather than 0 at start",
             "comment3": "using http://txtlocal.co.uk"
